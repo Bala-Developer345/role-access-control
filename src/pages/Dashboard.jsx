@@ -69,7 +69,6 @@ const Dashboard = () => {
             style={{
               margin: '24px 16px',
               overflow:'auto',
-              padding: 24,
               minHeight: 280,
               background: colorBgContainer,
               borderRadius: borderRadiusLG,

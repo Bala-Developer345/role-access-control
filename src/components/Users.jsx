@@ -157,7 +157,7 @@ const Users = () => {
             />
           </form>
        
-        <Button onClick={showModal} className="mb-6 bg-[#047857] text-[#fff] px-4 py-2 font-semibold rounded-full">
+        <Button onClick={showModal} className="mb-6 mt-3 md:mt-0 bg-[#047857] text-[#fff] px-4 py-2 font-semibold rounded-full">
           Add User
         </Button>
       </div>
@@ -267,7 +267,7 @@ const Users = () => {
             <div className="shadow-md bg-[#f5f3ff] text-center p-4" key={user.id}>
               <h3 className="text-[#475569]">{user.name}</h3>
               <div className="mt-3">{renderRoleComponent(user.role)}</div>
-              <div className="mt-3">{user.email}</div>
+              <div className="mt-3  text-sm lg:text-md">{user.email}</div>
               <p className="my-2">{renderStatus(user.status)}</p>
               <div className="flex align-center justify-center">
                 <button
